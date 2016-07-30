@@ -1,0 +1,55 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card-row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-column {
+    padding: 45px;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.todo-header > .title {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #55D6BE;
+    font-weight: bold;
+}
+
+.todo-header > hr {
+    margin-bottom: 10px;
+}
+
+.todo-body .input {
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s;
+    margin-bottom: 20px;
+}
+
+.todo-body .input:focus {
+    border-bottom: solid 2px #969696;
+}
+
+.todo-body .todo-list {
+    margin-top: 5px;
+}
+
+.todo-body .todo-list .item {
+    margin-bottom: 20px;
+}
+
+.todo-body .todo-list .row:last-child .item {
+    margin-bottom: 0;
+}
